@@ -22,7 +22,6 @@ def model_perform(model, model_name, params, X_train, y_train, X_test, y_test):
     return metrics_dataframe
 
 metrics_dataframe = pd.DataFrame(columns = ['Model', 'F1_score', 'Accuracy'])
-metrics_dataframe
 models = []
 models_names = []
 predictions_proba_list = []
